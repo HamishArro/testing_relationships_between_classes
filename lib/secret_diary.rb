@@ -5,27 +5,28 @@
 # Also don't add any other files.
 
 class SecretDiary
+
   def initialize(diary)
     @diary = diary
     @unlocked = false
   end
 
   def unlock
-    @unlocked = true
+    # @unlocked = true
   end
 
   def lock
-    @unlocked = false
+    # @unlocked = false
   end
 
   def read
-    return "Go away!" unless @unlocked
-    @diary.read
+    # return "Go away!" unless @unlocked
+    # @diary.read
   end
 
   def write(new_message)
-    return "Go away!" unless @unlocked
-    @diary.write(new_message)
-    nil
+    # return "Go away!" unless @unlocked
+    # @diary.write(new_message)
+    # nil
   end
 end
